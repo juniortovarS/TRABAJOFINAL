@@ -8,6 +8,10 @@ const fs = require('fs');
 const app = express();
 const PORT = 3000;
 
+const swaggerUi = require('swagger-ui-express');
+const swaggerJsdoc = require('swagger-jsdoc');
+
+
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -249,6 +253,29 @@ app.get('/', (req, res) => {
 app.get('/respuestas.json', (req, res) => {
   res.sendFile(path.join(__dirname, 'respuestas.json'));
 });
+
+
+
+const swaggerOptions = {
+  swaggerDefinition: {
+    openapi: '3.0.0',
+    info: {
+      title: 'API de Proyecto Final',
+      version: '1.0.0',
+      description: 'Documentación de la API de tu proyecto',
+    },
+    servers: [
+      {
+        url: 'https://trabajo-final-junior.onrender.com', // Reemplaza con tu URL real
+      },
+    ],
+  },
+  apis: ['./server.js'], // Aquí puedes poner más archivos si defines rutas en otros archivos
+};
+
+const swaggerDocs = swaggerJsdoc(swaggerOptions);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+
 
 // Iniciar servidor
 app.listen(PORT, () => {
