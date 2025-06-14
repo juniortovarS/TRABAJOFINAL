@@ -67,6 +67,38 @@ function verificarSesion(req, res, next) {
   else res.status(401).json({ mensaje: 'No autenticado' });
 }
 
+
+
+/**
+ * @swagger
+ * /register:
+ *   post:
+ *     summary: Registro de nuevo usuario
+ *     tags:
+ *       - Autenticación
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               usuario:
+ *                 type: string
+ *               password:
+ *                 type: string
+ *               nombreCompleto:
+ *                 type: string
+ *               email:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Usuario registrado correctamente
+ *       400:
+ *         description: Faltan datos
+ *       500:
+ *         description: Error al registrar
+ */
 // Registro
 app.post('/register', async (req, res) => {
   const { usuario, password, nombreCompleto, email } = req.body;
@@ -215,6 +247,82 @@ app.post('/api/carrito/agregar', verificarSesion, (req, res) => {
     }
   });
 });
+
+
+/**
+ * @swagger
+ * /api/carrito:
+ *   get:
+ *     summary: Obtener los productos del carrito del usuario
+ *     tags:
+ *       - Carrito
+ *     responses:
+ *       200:
+ *         description: Lista de productos en el carrito
+ *       401:
+ *         description: No autenticado
+ */
+
+/**
+ * @swagger
+ * /api/carrito/agregar:
+ *   post:
+ *     summary: Agregar producto al carrito
+ *     tags:
+ *       - Carrito
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               proyecto_id:
+ *                 type: integer
+ *               cantidad:
+ *                 type: integer
+ *     responses:
+ *       200:
+ *         description: Producto agregado o cantidad actualizada
+ *       400:
+ *         description: Faltan datos
+ *       500:
+ *         description: Error del servidor
+ */
+
+/**
+ * @swagger
+ * /api/carrito/eliminar/{id}:
+ *   delete:
+ *     summary: Eliminar un producto del carrito
+ *     tags:
+ *       - Carrito
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: integer
+ *     responses:
+ *       200:
+ *         description: Producto eliminado del carrito
+ *       500:
+ *         description: Error del servidor
+ */
+
+/**
+ * @swagger
+ * /api/carrito/vaciar:
+ *   delete:
+ *     summary: Vaciar el carrito del usuario
+ *     tags:
+ *       - Carrito
+ *     responses:
+ *       200:
+ *         description: Carrito vaciado
+ *       500:
+ *         description: Error del servidor
+ */
 
 app.get('/api/carrito', verificarSesion, (req, res) => {
   db.all(`
