@@ -90,6 +90,31 @@ app.post('/register', async (req, res) => {
   }
 });
 
+
+/**
+ * @swagger
+ * /login:
+ *   post:
+ *     summary: Iniciar sesión
+ *     tags:
+ *       - Autenticación
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               usuario:
+ *                 type: string
+ *               password:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Login exitoso
+ *       400:
+ *         description: Usuario o contraseña incorrectos
+ */
 // Login
 app.post('/login', (req, res) => {
   const { usuario, password } = req.body;
