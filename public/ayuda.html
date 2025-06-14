@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centro de Ayuda - Proyecto Junior Tovar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in-down { animation: fadeInDown 1s ease-out forwards; }
+    .animate-fade-in-up { animation: fadeInUp 1s ease-out forwards; }
+    .glow-border {
+      border: 2px solid rgba(0, 255, 0, 0.5);
+      box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+    }
+  </style>
+</head>
+
+<body class="relative w-full h-screen overflow-hidden text-white">
+  <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
+    <source src="img/fondochat.mp4" type="video/mp4" />
+    Tu navegador no soporta videos HTML5.
+  </video>
+
+  <div class="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
+
+  <div class="relative z-20 flex items-center justify-center h-full px-4">
+    <div class="w-full max-w-2xl bg-white/10 backdrop-blur-lg p-6 rounded-2xl shadow-2xl glow-border flex flex-col h-[90vh] animate-fade-in-up">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-2xl font-bold text-green-400 animate-fade-in-down">Centro de Ayuda</h2>
+        <a href="index.html" class="text-sm text-blue-300 hover:text-blue-100 transition animate-fade-in-down">
+          <i class="fas fa-arrow-left mr-1"></i> Volver
+        </a>
+      </div>
+
+      <div id="chat-messages" class="flex-grow overflow-y-auto bg-black/30 p-4 rounded-lg border border-white/10 space-y-4 mb-4">
+        <!-- Mensajes se mostrarán aquí -->
+      </div>
+
+      <form id="chat-form" class="flex gap-2 animate-fade-in-up">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Escribe tu mensaje..."
+          class="flex-grow rounded-full px-4 py-2 text-black focus:outline-none focus:ring-2 focus:ring-green-500"
+          required
+        />
+        <button
+          type="submit"
+          class="bg-green-600 hover:bg-green-700 px-5 py-2 rounded-full font-semibold transition transform hover:scale-105"
+        >
+          Enviar
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+  const chatForm = document.getElementById('chat-form');
+  const chatMessages = document.getElementById('chat-messages');
+  const userInput = document.getElementById('user-input');
+  let respuestas = [];
+
+  // Cargar respuestas desde el archivo JSON (ubicado en public)
+  fetch('respuestas.json')
+    .then(res => res.json())
+    .then(data => {
+      respuestas = data;
+    })
+    .catch(error => {
+      console.error("No se pudo cargar respuestas.json:", error);
+    });
+
+  function addMessage(content, fromUser = true) {
+    const msgDiv = document.createElement('div');
+    msgDiv.className = `flex justify-${fromUser ? 'end' : 'start'} animate-fade-in-up`;
+    msgDiv.innerHTML = `
+      <div class="max-w-xs px-4 py-2 rounded-lg text-sm ${
+        fromUser
+          ? 'bg-green-500 text-white'
+          : 'bg-white/20 text-white border border-white/10'
+      } shadow-md backdrop-blur-sm">
+        ${content}
+      </div>
+    `;
+    chatMessages.appendChild(msgDiv);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  function obtenerRespuesta(mensaje) {
+    for (const item of respuestas) {
+      const regex = new RegExp(item.regex, "i");
+      if (regex.test(mensaje)) {
+        return item.respuesta;
+      }
+    }
+    return "Lo siento, no entendí tu mensaje.";
+  }
+
+  chatForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const message = userInput.value.trim().toLowerCase();
+    if (!message) return;
+
+    addMessage(message, true);
+    userInput.value = '';
+
+    const respuesta = obtenerRespuesta(message);
+    addMessage(respuesta, false);
+  });
+</script>
+
+</body>
+</html>

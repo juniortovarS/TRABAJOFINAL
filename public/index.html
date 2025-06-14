@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi Portafolio Personal</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+    
+  
+  <!-- Sidebar lateral profesional -->
+  <div class="hidden lg:flex flex-col fixed top-1/3 left-4 space-y-6 z-50">
+    <a href="#inicio" class="group relative flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-md hover:bg-blue-600 transition-colors duration-300">
+      <i data-feather="home" class="text-gray-500 group-hover:text-white"></i>
+      <span class="absolute left-14 opacity-0 group-hover:opacity-100 bg-gray-800 text-white text-xs px-2 py-1 rounded transition-opacity duration-300">Inicio</span>
+    </a>
+    <a href="#sobre-mi" class="group relative flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-md hover:bg-blue-600 transition-colors duration-300">
+      <i data-feather="user" class="text-gray-500 group-hover:text-white"></i>
+      <span class="absolute left-14 opacity-0 group-hover:opacity-100 bg-gray-800 text-white text-xs px-2 py-1 rounded transition-opacity duration-300">Sobre mí</span>
+    </a>
+    <a href="#proyectos" class="group relative flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-md hover:bg-blue-600 transition-colors duration-300">
+      <i data-feather="briefcase" class="text-gray-500 group-hover:text-white"></i>
+      <span class="absolute left-14 opacity-0 group-hover:opacity-100 bg-gray-800 text-white text-xs px-2 py-1 rounded transition-opacity duration-300">Proyectos</span>
+    </a>
+    <a href="#contacto" class="group relative flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-md hover:bg-blue-600 transition-colors duration-300">
+      <i data-feather="mail" class="text-gray-500 group-hover:text-white"></i>
+      <span class="absolute left-14 opacity-0 group-hover:opacity-100 bg-gray-800 text-white text-xs px-2 py-1 rounded transition-opacity duration-300">Contacto</span>
+    </a>
+  </div>
+  
+
+  <header class="header-top">
+    <nav>
+      <ul>
+        <li><a href="#inicio" class="activo">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    
+  </header>
+
+  <main class="main-content">
+    <section id="inicio" class="scroll-fade-in">
+      <div class="texto-inicio">
+        <h1>Ingeniero De Computación y Sistemas</h1>
+        <p>Hola soy Junior Tovar, soy apasionado por crear soluciones digitales, innovadoras, funcionales e interactivas, que implican positivamente al usuario final.</p>
+      </div>
+      <div class="foto-perfil"></div>
+    </section>
+
+    <section id="sobre-mi" class="scroll-fade-in">
+      <h1 class="text-3xl font-bold text-blue-600 mb-4">Sobre mí</h1>
+      <div class="info-rectangulos grid gap-6 grid-cols-3">
+        <div class="rectangulo p-4 rounded-xl shadow-lg bg-white min-w-[200px] hover:scale-105 transition-transform duration-300">
+          <h3><span class="icon">👤</span> Quién soy</h3>
+          <p>Aquí va la información sobre quién eres...</p>
+        </div>
+        <div class="rectangulo hover:scale-105 transition-transform duration-300 p-4 rounded-xl shadow-lg bg-white">
+          <h3><span class="icon">🎯</span> Mi objetivo</h3>
+          <p>Aquí escribes tus objetivos personales y profesionales.</p>
+        </div>
+        <div class="rectangulo hover:scale-105 transition-transform duration-300 p-4 rounded-xl shadow-lg bg-white">
+          <h3><span class="icon">⭐</span> Mi perfil</h3>
+          <p>Información sobre tus habilidades y experiencia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="scroll-fade-in">
+      <div class="habilidades-container text-center mt-12">
+        <h2 class="text-2xl font-bold mb-6">Mis Habilidades</h2>
+        <div class="iconos-habilidades flex flex-wrap justify-center gap-6">
+          <!-- Iconos de habilidades -->
+          <div class="icono hover:scale-110 transition-transform duration-300"><i class="devicon-html5-plain colored text-4xl"></i><span>HTML</span></div>
+          <div class="icono hover:scale-110 transition-transform duration-300"><i class="devicon-css3-plain colored text-4xl"></i><span>CSS</span></div>
+          <div class="icono hover:scale-110 transition-transform duration-300"><i class="devicon-javascript-plain colored text-4xl"></i><span>JavaScript</span></div>
+          <div class="icono hover:scale-110 transition-transform duration-300"><i class="devicon-nodejs-plain colored text-4xl"></i><span>Node.js</span></div>
+          <div class="icono hover:scale-110 transition-transform duration-300"><i class="devicon-bootstrap-plain colored text-4xl"></i><span>Bootstrap</span></div>
+          <div class="icono hover:scale-110 transition-transform duration-300"><i class="devicon-mysql-plain colored text-4xl"></i><span>MySQL</span></div>
+          <div class="icono hover:scale-110 transition-transform duration-300"><i class="devicon-angularjs-plain colored text-4xl"></i><span>Angular</span></div>
+          <div class="icono hover:scale-110 transition-transform duration-300"><i class="devicon-java-plain colored text-4xl"></i><span>Java</span></div>
+          <div class="icono hover:scale-110 transition-transform duration-300"><i class="devicon-git-plain colored text-4xl"></i><span>Git</span></div>
+          <div class="icono hover:scale-110 transition-transform duration-300"><i class="devicon-postgresql-plain colored text-4xl"></i><span>PostgreSQL</span></div>
+          <div class="icono hover:scale-110 transition-transform duration-300"><i class="devicon-androidstudio-plain colored text-4xl"></i><span>Android Studio</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="proyectos scroll-fade-in mt-12">
+      <div class="proyectos-container">
+        <h2 class="text-2xl font-bold mb-6 text-center">MIS PROYECTOS</h2>
+        <div class="tarjetas-proyecto grid gap-6 md:grid-cols-3">
+          <div class="tarjeta hover:scale-105 transition-transform duration-300 p-4 rounded-xl shadow-md bg-white">
+            <img src="img/crud.png" alt="Proyecto 1" class="rounded-md mb-2">
+            <h3 class="font-semibold">Sistema de Venta usando CRUD</h3>
+            <p>Aplicación web de gestión de ventas y stock para una tienda local con CRUD.</p>
+          </div>
+          <div class="tarjeta hover:scale-105 transition-transform duration-300 p-4 rounded-xl shadow-md bg-white">
+            <img src="img/juego.png" alt="Proyecto 2" class="rounded-md mb-2">
+            <h3 class="font-semibold">App de juego en Android Studio</h3>
+            <p>Jetpack Joyride.</p>
+          </div>
+          <div class="tarjeta hover:scale-105 transition-transform duration-300 p-4 rounded-xl shadow-md bg-white">
+            <img src="img/uber.png" alt="Proyecto 3" class="rounded-md mb-2">
+            <h3 class="font-semibold">App simulada tipo Uber</h3>
+            <p>Uber en Android Studio.</p>
+          </div>
+        </div>
+
+        <div class="text-center mt-6">
+          <a href="catalogo.html" class="relative inline-block px-8 py-3 font-semibold text-white bg-gradient-to-r from-purple-600 to-indigo-600 rounded-lg shadow-lg overflow-hidden group">
+            <span class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-700 opacity-50 group-hover:opacity-0 transition duration-300"></span>
+            <span class="relative z-10 transform group-hover:scale-105 group-hover:text-yellow-300 transition duration-300">¡MIS DEMÁS PROYECTOS!</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="scroll-fade-in mt-12">
+      <div class="contenedor-contacto flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="redes-sociales space-y-4">
+          <h2 class="text-xl font-semibold">Contáctame</h2>
+          <a href="https://www.linkedin.com/in/junior-tovar-873499208/" target="_blank" class="red-social hover:underline">🔗 <span class="usuario">JuniorTovar</span></a>
+          <a href="https://github.com/JuniorTovar" target="_blank" class="red-social hover:underline">🐱 <span class="usuario">JuniorTovar</span></a>
+          <a href="https://w.app/juniortovar" class="red-social hover:underline">✉️ <span class="usuario">JuniorTovarSalazar</span></a>
+        </div>
+        <div class="foto">
+          <img src="img/blu.png" alt="Mi foto" class="rounded-xl shadow-lg max-w-xs">
+        </div>
+      </div>
+    </section>
+
+
+<!-- Sección de Ayuda Profesional -->
+<section id="ayuda-section" class="relative mt-24 mx-4 lg:mx-32 rounded-3xl overflow-hidden border border-white/10 shadow-xl transition-opacity duration-500 opacity-100">
+  <!-- Imagen de fondo con overlay oscuro -->
+  <img src="img/ayuda.jpg" alt="Ayuda profesional" class="w-full h-[28rem] object-cover brightness-75">
+
+  <!-- Contenido superpuesto -->
+  <div class="absolute inset-0 bg-black/60 backdrop-blur-sm flex flex-col items-center justify-center text-center text-white px-6">
+    <h2 class="text-4xl md:text-5xl font-bold tracking-tight leading-tight drop-shadow-md animate-fade-in-up">
+      ¿Necesitas ayuda?
+    </h2>
+    <p class="mt-4 text-lg md:text-xl font-light text-white/90 animate-fade-in-up delay-100">
+      Escríbenos directamente a través de nuestro nuevo chat interactivo.
+    </p>
+
+    <!-- Botón con transición personalizada -->
+    <button
+      onclick="fadeOutAndRedirect()"
+      class="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-white text-black font-medium text-base rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 focus:outline-none animate-fade-in-up delay-200"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      Ir a Ayuda
+    </button>
+  </div>
+</section>
+
+<script>
+  function fadeOutAndRedirect() {
+    const section = document.getElementById('ayuda-section');
+    section.style.opacity = 0;
+    setTimeout(() => {
+      window.location.href = "ayuda.html";
+    }, 500); // Espera la duración de la transición (500ms)
+  }
+</script>
+    
+
+
+
+
+    <footer class="text-center py-6 text-sm text-gray-500">
+      <p>© 2025 Junior Tovar</p>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+  <script>feather.replace();</script>
+
+<!-- Botón flotante de login mejorado -->
+<a href="auth.html" id="openAuthBtn" 
+   class="fixed bottom-6 right-6 w-20 h-20 rounded-full 
+          flex items-center justify-center 
+          text-white text-sm font-bold
+          bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 
+          shadow-2xl hover:scale-110 transition-transform duration-500
+          animate-pulse ring-4 ring-pink-300/30 z-50
+          opacity-0 scale-90 pointer-events-none"
+   title="Iniciar sesión">
+  <div class="relative flex flex-col items-center">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H3m12 0l-4-4m4 4l-4 4m4-4v6a2 2 0 01-2 2H7a2 2 0 01-2-2V6a2 2 0 012-2h6a2 2 0 012 2v6z" />
+    </svg>
+    <span class="text-xs bg-black/70 text-white px-2 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">Login</span>
+  </div>
+</a>
+
+<!-- Script para mostrar el botón luego de 10 segundos -->
+<script>
+  setTimeout(() => {
+    const btn = document.getElementById('openAuthBtn');
+    btn.classList.remove('opacity-0', 'pointer-events-none', 'scale-90');
+    btn.classList.add('opacity-100', 'pointer-events-auto', 'scale-100');
+  }, 1);
+</script>
+
+
+  <!-- Contenedor fijo del carrito en la esquina superior derecha -->
+<div class="fixed top-4 right-4 z-50">
+  <!-- Botón de carrito -->
+  <button id="cart-button" class="relative bg-white p-2 rounded-full shadow-lg hover:bg-gray-100 transition flex items-center space-x-2">
+    <!-- Icono de carrito (SVG) -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.6 8h13.2M7 13l4-8m0 0l4 8" />
+    </svg>
+    <!-- Burbuja de cantidad -->
+    <span id="cart-count" class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-red-600 rounded-full">0</span>
+  </button>
+
+  <!-- Panel del carrito oculto (opcional) -->
+  <div id="cart-panel" class="hidden mt-2 w-40 bg-white rounded-lg shadow-lg p-4 border border-gray-200">
+    <a href="carrito.html" class="block w-full text-center bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition">Ver carrito</a>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const cartButton = document.getElementById('cart-button');
+    const cartPanel = document.getElementById('cart-panel');
+
+    cartButton.addEventListener('click', () => {
+      cartPanel.classList.toggle('hidden');
+    });
+
+    // Ejemplo para actualizar el contador dinámicamente (ajusta según tu carrito)
+    // const cartCount = document.getElementById('cart-count');
+    // cartCount.textContent = 3; // ejemplo
+  });
+</script>
+
+
+
+</body>
+</html>

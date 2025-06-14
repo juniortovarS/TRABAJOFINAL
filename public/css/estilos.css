@@ -1,0 +1,603 @@
+
+
+
+/* RESET Y BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* HEADER TOP */
+.header-top {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 60px;
+  min-width: 450px;
+  background: rgba(2, 4, 16, 0.696);
+  border-radius: 30px;
+  padding: 0 40px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  user-select: none;
+  font-weight: 700;
+}
+
+.header-top nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+.header-top nav ul li a {
+  color: rgb(96, 191, 191);
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+}
+
+.header-top nav ul li a:hover {
+  background-color: rgba(149, 52, 52, 0.15);
+}
+
+.header-top nav ul li a.activo {
+  background-color: yellow;
+  color: black;
+}
+
+/* CONTENIDO PRINCIPAL */
+.main-content {
+  flex-grow: 1;
+  padding: 0 60px 40px 60px; /* Quitamos el padding superior */
+  overflow-y: auto;
+  background-image: url('/img/fondo1.png');
+  box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+  height: calc(100vh - 80px);
+  min-height: 100vh;
+  border-radius: 0 20px 20px 0;
+}
+
+/* SECCIONES */
+section {
+  margin:  0; /* Espaciado vertical mayor entre secciones */
+  background: transparent;
+  padding: 100px 200px;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+section:hover {
+  box-shadow: 0 15px 40px rgba(133, 40, 240, 0.25);
+}
+
+section h1, section h2 {
+  font-weight: 700;
+  color: #40dbdbe2;
+  margin-bottom: 25px;
+  font-size: 3rem;
+  letter-spacing: 0.03em;
+}
+
+section h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color:  #add8e6;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+section p {
+  font-size: 3.3rem;
+  line-height: 2.0;
+  color:  #add8e6;
+  letter-spacing: 0.01em;
+}
+
+
+
+#inicio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;          /* Centra verticalmente */
+  justify-content: space-between; /* Separa texto e imagen a los lados */
+  height: 100vh;                /* Altura igual a la ventana */
+  width: 100vw;
+  padding: 0 5%;                /* Espacio lateral */
+  box-sizing: border-box;
+  gap: 40px;
+  color: white;
+  text-align: left;
+  margin: 0;                   /* Sin margen externo */
+}
+
+
+.texto-inicio {
+  width: 45%; /* Deja espacio para la imagen */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Mayor separación para resaltar cada elemento */
+}
+
+.texto-inicio h1 {
+  font-size: 4.2rem; /* Más grande y llamativo */
+  margin-bottom: 10px;
+  font-weight: 800;
+  color: #559bd1;
+}
+
+.texto-inicio p {
+  font-size: 2rem; /* Más grande pero legible */
+  line-height: 1.6; /* Mejor separación entre líneas */
+  color: #e8eaea;   /* Azul claro elegante */
+  font-weight: 500;
+}
+
+/* Imagen más grande y centrada verticalmente en la derecha */
+.foto-perfil {
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  background-image: url('../img/hacker.gif');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  border: 4px solid #040d1a;
+  transition: transform 0.3s ease;
+}
+
+/* Responsive: en pantallas pequeñas se apilan y la imagen se reduce */
+@media (max-width: 900px) {
+  #inicio {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .texto-inicio {
+    width: 100%;
+  }
+  .foto-perfil {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+  }
+}
+
+
+
+/* Contenedor padre */
+.foto-perfil:hover {
+  transform: scale(1.1) rotate(3deg);
+}
+
+
+/* EFECTO FADE IN */
+.fade-in {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* CONTENEDOR GENERAL */
+.container {
+  display: flex;
+  margin-top: 70px; /* compensar el header fijo */
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 0 20px 20px 0;
+  overflow: hidden;
+}
+
+/* Sección inicio */
+#inicio {
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#sobre-mi,
+#proyectos,
+#contacto {
+  margin-top: 70px;
+}
+
+
+#sobre-mi {
+  padding: 100px 5%;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#sobre-mi > h1 {
+  font-size: 4.2rem;
+  font-weight: 800;
+  margin-bottom: 60px;
+  color: #87CEEB; /* Celeste cielo */
+  letter-spacing: 0.03em;
+}
+
+.info-rectangulos {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.rectangulo {
+  background: rgba(8, 35, 64, 0.85);
+  border-radius: 20px;
+  padding: 30px 40px;
+  width: 480px;
+  min-height: 220px;
+  box-shadow: 0 8px 30px rgba(135, 206, 235, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+
+.rectangulo:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 50px rgba(135, 206, 235, 0.7);
+}
+
+.rectangulo h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #87CEEB;
+  letter-spacing: 0.02em;
+}
+
+.rectangulo p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #b7cbd1;
+  text-align: center;
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 960px) {
+  .info-rectangulos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .rectangulo {
+    width: 90%;
+    min-height: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+.rectangulo h3 .icon {
+  margin-right: 10px;
+  font-size: 2.4rem;
+  vertical-align: middle;
+}
+
+.rectangulo {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.rectangulo:hover {
+  transform: translateY(-15px) scale(1.05);
+  box-shadow: 0 20px 60px rgba(135, 206, 235, 0.8);
+}
+
+/* Redes sociales - iconos simples con espacio */
+.redes-sociales {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.redes-sociales a {
+  font-size: 2.5rem;
+  color: #87CEEB;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.redes-sociales a:hover {
+  color: #559bd1;
+}
+
+
+
+
+
+.habilidades {
+  width: 100vw;
+  padding: 60px 10%;
+  background: rgba(8, 35, 64, 0.85);
+  color: white;
+  text-align: center;
+}
+
+.habilidades-container h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #87CEEB;
+  letter-spacing: 0.03em;
+}
+
+.iconos-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.icono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  padding: 20px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.icono:hover {
+  transform: translateY(-8px) scale(1.08);
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 12px 25px rgba(135, 206, 235, 0.3);
+}
+
+.icono i {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.icono:hover i {
+  transform: scale(1.1) rotate(1deg);
+}
+
+.icono span {
+  font-size: 1rem;
+  color: #b7cbd1;
+  transition: color 0.3s ease;
+}
+
+.icono:hover span {
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+.proyectos {
+  width: 100vw;
+  padding: 80px 10%;
+  color: white;
+  text-align: center;
+}
+
+.proyectos-container h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 50px;
+  color: #87CEEB;
+  letter-spacing: 0.03em;
+}
+
+.tarjetas-proyecto {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  width: 320px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(135, 206, 235, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.tarjeta:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 45px rgba(135, 206, 235, 0.3);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.tarjeta h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #87CEEB;
+}
+
+.tarjeta p {
+  font-size: 1rem;
+  color: #d0dfe7;
+  margin-bottom: 15px;
+}
+
+.tarjeta a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #3ecbc7;
+  color: #0c1e35;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.tarjeta a:hover {
+  background-color: #2ba9a3;
+}
+
+
+
+
+
+.boton-catalogo {
+  display: inline-block;
+  padding: 16px 36px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: #3ecbc7;
+  color: #0c1e35;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(135, 206, 235, 0.3);
+  letter-spacing: 0.05em;
+  margin-top: 40px;
+}
+
+.boton-catalogo:hover {
+  background-color: #2ba9a3;
+  color: white;
+  transform: scale(1.08) translateY(-5px);
+  box-shadow: 0 15px 45px rgba(135, 206, 235, 0.6);
+}
+
+
+
+
+
+
+/*seccion contacto*/
+
+#contacto {
+  padding: 40px 0;
+}
+
+.contenedor-contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 40px;
+  flex-wrap: wrap;
+}
+
+.redes-sociales {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.red-social {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+.red-social span {
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.foto {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.foto img {
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+
+
+.sidebar-icon.activo {
+  color: #3b82f6; /* azul de Tailwind */
+  transform: scale(1.2);
+}
+
+
+
+
+
+@keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fade-in-up {
+    animation: fade-in-up 0.3s ease-out forwards;
+  }

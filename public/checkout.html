@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Finalizar Compra | Premium</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            float: "float 3s ease-in-out infinite"
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-8px)' }
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    .btn-glass {
+      background: rgba(255 255 255 / 0.15);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255 255 255 / 0.3);
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .btn-glass:hover {
+      background: rgba(255 255 255 / 0.35);
+      transform: scale(1.03);
+    }
+    input:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4);
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-tr from-blue-100 via-white to-blue-200 text-gray-800 font-sans flex flex-col">
+
+  <header class="py-8 bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
+    <h1 class="text-center text-4xl font-extrabold tracking-tight text-blue-900 drop-shadow-md select-none">💳 Finalizar Compra</h1>
+  </header>
+
+  <main class="flex-grow max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <form id="checkout-form" class="bg-white/90 p-10 rounded-3xl shadow-xl backdrop-blur-md border border-blue-100 space-y-8 animate-fade-in">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <label for="nombre" class="block text-blue-900 font-semibold mb-2">Nombre completo</label>
+          <input type="text" id="nombre" required
+            class="w-full px-5 py-3 rounded-xl border border-blue-300 focus:ring-2 focus:ring-blue-500 transition" />
+        </div>
+        <div>
+          <label for="correo" class="block text-blue-900 font-semibold mb-2">Correo electrónico</label>
+          <input type="email" id="correo" required
+            class="w-full px-5 py-3 rounded-xl border border-blue-300 focus:ring-2 focus:ring-blue-500 transition" />
+        </div>
+        <div class="md:col-span-2">
+          <label for="direccion" class="block text-blue-900 font-semibold mb-2">Dirección</label>
+          <input type="text" id="direccion" required
+            class="w-full px-5 py-3 rounded-xl border border-blue-300 focus:ring-2 focus:ring-blue-500 transition" />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="md:col-span-2">
+          <label for="tarjeta" class="block text-blue-900 font-semibold mb-2">Número de tarjeta</label>
+          <input type="text" id="tarjeta" maxlength="19" placeholder="XXXX XXXX XXXX XXXX" required
+            class="w-full px-5 py-3 rounded-xl border border-blue-300 focus:ring-2 focus:ring-blue-500 transition" />
+        </div>
+        <div>
+          <label for="cvc" class="block text-blue-900 font-semibold mb-2">CVC</label>
+          <input type="text" id="cvc" maxlength="4" required
+            class="w-full px-5 py-3 rounded-xl border border-blue-300 focus:ring-2 focus:ring-blue-500 transition" />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <label for="expira" class="block text-blue-900 font-semibold mb-2">Expira</label>
+          <input type="text" id="expira" placeholder="MM/AA" maxlength="5" required
+            class="w-full px-5 py-3 rounded-xl border border-blue-300 focus:ring-2 focus:ring-blue-500 transition" />
+        </div>
+        <div class="flex items-end">
+          <button type="submit"
+            class="btn-glass w-full py-4 text-lg font-bold text-green-700 hover:text-white hover:bg-green-600 rounded-xl shadow-lg transition">
+            Confirmar y Pagar
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <div class="mt-12 flex justify-center space-x-6">
+      <a href="catalogo.html"
+         class="btn-glass px-6 py-3 rounded-xl text-blue-700 font-semibold shadow-md hover:bg-blue-600 hover:text-white transition">
+        ← Seguir comprando
+      </a>
+      <a href="carrito.html"
+         class="btn-glass px-6 py-3 rounded-xl text-blue-700 font-semibold shadow-md hover:bg-blue-600 hover:text-white transition">
+        🛒 Ver carrito
+      </a>
+    </div>
+    <!-- Overlay con el GIF de agradecimiento -->
+<div id="gracias-overlay" class="fixed inset-0 bg-white bg-opacity-90 backdrop-blur-md flex items-center justify-center z-50 hidden">
+  <img src="img/gracias.gif" alt="Gracias por tu compra" class="w-96 h-auto animate-pulse rounded-2xl shadow-2xl">
+</div>
+
+  </main>
+
+  <script>
+    document.getElementById("checkout-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const nombre = document.getElementById("nombre").value.trim();
+      const correo = document.getElementById("correo").value.trim();
+      const direccion = document.getElementById("direccion").value.trim();
+      const tarjeta = document.getElementById("tarjeta").value.trim();
+      const cvc = document.getElementById("cvc").value.trim();
+      const expira = document.getElementById("expira").value.trim();
+
+      if (!nombre || !correo || !direccion || !tarjeta || !cvc || !expira) {
+        alert("Por favor completa todos los campos.");
+        return;
+      }
+
+      // Simulación de éxito (puedes reemplazar por una llamada fetch POST)
+      // Mostrar GIF de agradecimiento antes de redirigir
+const overlay = document.getElementById("gracias-overlay");
+overlay.classList.remove("hidden");
+
+setTimeout(() => {
+  window.location.href = "gracias.html";
+}, 3000); // Espera 3 segundos antes de redirigir
+
+    });
+  </script>
+</body>
+</html>

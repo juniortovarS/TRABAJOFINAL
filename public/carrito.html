@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carrito de Compra | Premium</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Glassmorphism button */
+    .btn-glass {
+      background: rgba(255 255 255 / 0.15);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255 255 255 / 0.3);
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+    .btn-glass:hover {
+      background: rgba(255 255 255 / 0.35);
+      border-color: rgba(255 255 255 / 0.6);
+    }
+
+    /* Smooth shadow and scale animation */
+    .card-hover:hover {
+      box-shadow: 0 20px 30px rgba(59, 130, 246, 0.3);
+      transform: translateY(-5px);
+    }
+
+    /* Scrollbar styling for carrito container */
+    #carrito-container::-webkit-scrollbar {
+      width: 8px;
+    }
+    #carrito-container::-webkit-scrollbar-thumb {
+      background: #3b82f6;
+      border-radius: 4px;
+    }
+    #carrito-container::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-tr from-blue-50 via-white to-blue-100 font-sans text-gray-800 flex flex-col">
+
+  <header class="py-8 bg-white/70 backdrop-blur-md shadow-md sticky top-0 z-50">
+    <h1 class="text-center text-4xl font-extrabold tracking-tight text-blue-900 drop-shadow-md select-none">🛒 Tu Carrito de Compra</h1>
+  </header>
+
+  <main class="flex-grow max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div id="carrito-container" class="space-y-8 max-h-[70vh] overflow-y-auto pr-2">
+      <p class="text-center text-blue-600 text-xl font-semibold animate-pulse select-none">Cargando carrito...</p>
+    </div>
+
+    <div class="mt-12 flex flex-col sm:flex-row justify-center gap-6">
+  <a href="catalogo.html" 
+     class="btn-glass inline-flex items-center gap-2 px-8 py-3 rounded-xl text-blue-700 font-semibold shadow-lg hover:text-white hover:bg-blue-600 transition-colors duration-300 select-none"
+     aria-label="Seguir comprando">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" >
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+    </svg>
+    Seguir comprando
+  </a>
+
+  <a href="checkout.html"
+     class="btn-glass inline-flex items-center gap-2 px-8 py-3 rounded-xl text-green-700 font-semibold shadow-lg hover:text-white hover:bg-green-600 transition-colors duration-300 select-none"
+     aria-label="Finalizar compra">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" >
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+    </svg>
+    Finalizar compra
+  </a>
+</div>
+
+    </div>
+  </main>
+
+  <script>
+    async function verificarSesion() {
+      try {
+        const res = await fetch('/session', { credentials: 'include' });
+        const data = await res.json();
+        if (!data.logueado) {
+          alert("Tu sesión ha expirado. Por favor inicia sesión.");
+          window.location.href = 'auth.html';  
+        } else {
+          cargarCarrito();
+        }
+      } catch (e) {
+        console.error('Error verificando sesión:', e);
+        alert("Error al verificar sesión.");
+        window.location.href = 'auth.html';
+      }
+    }
+
+    async function cargarCarrito() {
+      try {
+        const response = await fetch('/api/carrito', { credentials: 'include' });
+        if (!response.ok) throw new Error('No se pudo cargar el carrito');
+
+        const items = await response.json();
+        const contenedor = document.getElementById('carrito-container');
+        contenedor.innerHTML = '';
+
+        if (items.length === 0) {
+          contenedor.innerHTML = `
+            <p class="text-center text-blue-700 text-2xl font-semibold select-none">Tu carrito está vacío.</p>
+          `;
+          return;
+        }
+
+        items.forEach(item => {
+          const div = document.createElement('div');
+          div.className = `
+            flex flex-col md:flex-row bg-white/80 rounded-3xl shadow-lg p-6 card-hover
+            backdrop-blur-md border border-blue-100 transition-transform duration-300
+          `;
+          div.innerHTML = `
+            <img 
+              src="${item.imagen || 'img/proyecto-default.jpg'}" 
+              alt="${item.titulo}" 
+              class="w-full md:w-48 h-48 rounded-2xl object-cover flex-shrink-0 select-none"
+              loading="lazy"
+              onerror="this.src='img/proyecto-default.jpg'"
+            >
+            <div class="mt-5 md:mt-0 md:ml-8 flex flex-col justify-between flex-grow">
+              <div>
+                <h2 class="text-3xl font-bold text-blue-900 mb-3 select-text">${item.titulo}</h2>
+                <p class="text-blue-700/90 mb-4 leading-relaxed select-text">${item.descripcion}</p>
+                <p class="font-semibold text-blue-800 select-text">Cantidad: <span class="text-blue-600">${item.cantidad || 1}</span></p>
+              </div>
+              <button 
+                class="mt-6 w-max self-start bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-xl shadow-lg transition-colors duration-300 flex items-center gap-2 select-none"
+                onclick="eliminarDelCarrito(${item.id})"
+                aria-label="Eliminar ${item.titulo} del carrito"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                Eliminar
+              </button>
+            </div>
+          `;
+          contenedor.appendChild(div);
+        });
+      } catch (error) {
+        console.error(error);
+        document.getElementById('carrito-container').innerHTML = `
+          <p class="text-center text-red-600 text-2xl font-semibold select-none">Error al cargar tu carrito.</p>
+        `;
+      }
+    }
+
+    async function eliminarDelCarrito(id) {
+      if (!confirm('¿Eliminar este proyecto del carrito?')) return;
+
+      try {
+        const res = await fetch(`/api/carrito/eliminar/${id}`, {
+          method: 'DELETE',
+          credentials: 'include'
+        });
+
+        const data = await res.json();
+        alert(data.mensaje || 'Producto eliminado.');
+        cargarCarrito();
+      } catch (err) {
+        console.error(err);
+        alert('Error al eliminar del carrito.');
+      }
+    }
+
+    verificarSesion();
+
+
+
+
+    
+  </script>
+
+
+
+
+</body>
+</html>

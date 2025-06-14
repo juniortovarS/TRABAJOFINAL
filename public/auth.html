@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Acceso de Usuario</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    /* RESET */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Orbitron', sans-serif;
+      color: white;
+      overflow: hidden;
+      background: radial-gradient(ellipse at center, #000015 0%, #000000 80%);
+      position: relative;
+    }
+
+    #particles-js {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: #000010;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .logo img {
+      max-width: 150px;
+      margin-bottom: 15px;
+      filter: drop-shadow(0 0 12px #0ff);
+      transition: filter 0.3s ease-in-out;
+    }
+
+    .logo img:hover {
+      filter: drop-shadow(0 0 25px #0ff);
+    }
+
+    nav {
+      margin-bottom: 20px;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav a {
+      color: #0ff;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 1.2rem;
+      position: relative;
+      padding: 8px 14px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #0ff, inset 0 0 15px #0ff;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #000;
+      background: #0ff;
+      box-shadow: 0 0 25px #0ff, inset 0 0 30px #0ff;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 3rem;
+      color: #0ff;
+      text-shadow: 0 0 12px #0ff, 0 0 40px #0ff;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 35px;
+      margin-bottom: 30px;
+    }
+
+    .tab {
+      cursor: pointer;
+      padding: 14px 36px;
+      background: #111;
+      border: 3px solid #0ff;
+      border-radius: 50px;
+      color: #0ff;
+      font-weight: 700;
+      font-size: 1.25rem;
+      box-shadow: 0 0 18px #0ff;
+      transition: all 0.35s;
+      user-select: none;
+    }
+
+    .tab.active,
+    .tab:hover {
+      background: #0ff;
+      color: #000;
+      box-shadow: 0 0 35px #0ff, inset 0 0 50px #0ff;
+    }
+
+    form {
+      display: none;
+      width: 100%;
+      max-width: 450px;
+      background: rgba(0, 0, 0, 0.88);
+      padding: 35px 40px;
+      border-radius: 25px;
+      box-shadow: 0 0 35px rgba(0, 255, 255, 0.65), inset 0 0 65px rgba(0, 255, 255, 0.4);
+    }
+
+    form.active {
+      display: block;
+      animation: fadeInUp 0.7s ease forwards;
+    }
+
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    label {
+      display: block;
+      margin-top: 18px;
+      font-size: 1.05rem;
+      color: #aaffff;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 14px 18px;
+      margin-top: 8px;
+      background: #111;
+      border: 2.5px solid #0ff;
+      color: #0ff;
+      border-radius: 16px;
+      font-size: 1.1rem;
+      font-family: 'Orbitron', monospace;
+    }
+
+    input::placeholder {
+      color: #555;
+    }
+
+    input:focus, select:focus {
+      border-color: #00ffff;
+      box-shadow: 0 0 20px #0ff;
+      outline: none;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 18px 0;
+      width: 100%;
+      font-size: 1.3rem;
+      font-weight: 900;
+      background: linear-gradient(90deg, #00ffff, #0077ff, #00ffff);
+      color: #000;
+      border: none;
+      border-radius: 60px;
+      cursor: pointer;
+      box-shadow: 0 0 25px #0ff, 0 0 45px #0ff inset;
+      letter-spacing: 3px;
+      text-shadow: 0 0 6px #00ffff;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background: linear-gradient(90deg, #0077ff, #00ffff, #0077ff);
+      box-shadow: 0 0 50px #0ff, 0 0 75px #0ff inset;
+      color: #fff;
+    }
+
+    #mensaje {
+      margin-top: 22px;
+      font-weight: 800;
+      text-align: center;
+      font-size: 1.15rem;
+      color: #00ff99;
+      text-shadow: 0 0 10px #0ff;
+      min-height: 24px;
+    }
+
+    #vistaPrevia {
+      width: 110px;
+      height: 110px;
+      margin-top: 18px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3.5px solid #0ff;
+      display: none;
+      filter: drop-shadow(0 0 15px #0ff);
+      transition: transform 0.3s ease;
+    }
+
+    #vistaPrevia:hover {
+      transform: scale(1.05);
+      filter: drop-shadow(0 0 30px #0ff);
+    }
+  </style>
+</head>
+<body>
+
+  <div id="particles-js" aria-hidden="true"></div>
+
+  <div class="logo"><img src="img/logo.png" alt="Logo" /></div>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="carrito.html">Carrito</a>
+  </nav>
+
+  <h1>Acceso de Usuario</h1>
+
+  <div class="tabs">
+    <div class="tab active" data-target="loginForm">Login</div>
+    <div class="tab" data-target="registroForm">Registro</div>
+  </div>
+
+  <!-- Formulario de Login -->
+  <form id="loginForm" class="active" autocomplete="off">
+    <label for="usuarioLogin">Usuario:</label>
+    <input type="text" id="usuarioLogin" name="usuarioLogin" required placeholder="Tu usuario" />
+
+    <label for="passwordLogin">Contraseña:</label>
+    <input type="password" id="passwordLogin" name="passwordLogin" required placeholder="Tu contraseña" />
+
+    <button type="submit">Entrar</button>
+  </form>
+
+  <!-- Formulario de Registro -->
+  <form id="registroForm" autocomplete="off">
+    <label for="usuarioRegistro">Usuario:</label>
+    <input type="text" id="usuarioRegistro" name="usuarioRegistro" required placeholder="Usuario" />
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required placeholder="ejemplo@mail.com" />
+
+    <label for="passwordRegistro">Contraseña:</label>
+    <input type="password" id="passwordRegistro" name="passwordRegistro" required placeholder="Contraseña" />
+
+    <label for="passwordRR">Repetir contraseña:</label>
+    <input type="password" id="passwordRR" name="passwordRR" required placeholder="Repite la contraseña" />
+
+    <label for="sexo">Sexo:</label>
+    <select id="sexo" name="sexo" required>
+      <option value="" disabled selected>Selecciona tu sexo</option>
+      <option value="Masculino">Masculino</option>
+      <option value="Femenino">Femenino</option>
+      <option value="Otro">Otro</option>
+    </select>
+
+    <label for="foto">Foto:</label>
+    <input type="file" id="foto" name="foto" accept="image/*" />
+    <img id="vistaPrevia" alt="Vista previa de la imagen" />
+
+    <button type="submit">Registrarse</button>
+  </form>
+
+  <div id="mensaje"></div>
+
+  <script>
+    // Cambio de pestañas
+    const tabs = document.querySelectorAll('.tab');
+    const forms = document.querySelectorAll('form');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        forms.forEach(f => f.classList.remove('active'));
+        document.getElementById(tab.dataset.target).classList.add('active');
+      });
+    });
+
+    // Vista previa de la imagen
+    const inputFoto = document.getElementById('foto');
+    const vistaPrevia = document.getElementById('vistaPrevia');
+    inputFoto.addEventListener('change', () => {
+      const file = inputFoto.files[0];
+      if (!file) {
+        vistaPrevia.style.display = 'none';
+        vistaPrevia.src = '';
+        return;
+      }
+      const reader = new FileReader();
+      reader.onload = e => {
+        vistaPrevia.src = e.target.result;
+        vistaPrevia.style.display = 'block';
+      };
+      reader.readAsDataURL(file);
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    // Simulación de login con usuarios hardcodeados
+    const usuarios = [
+      { usuario: 'admin', password: 'admin123', rol: 'admin' },
+      { usuario: 'cliente', password: 'cliente123', rol: 'cliente' },
+      { usuario: 'vendedor', password: 'vendedor123', rol: 'vendedor' },
+      { usuario: 'blu', password: 'blu', rol: 'cliente' }
+    ];
+
+    function mostrarMensaje(texto, esError = false) {
+  const mensaje = document.getElementById('mensaje');
+  if (!mensaje) return;
+  mensaje.textContent = texto;
+  mensaje.style.color = esError ? '#ff5555' : '#00ffff';
+}
+
+document.getElementById('loginForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  const usuario = document.getElementById('usuarioLogin').value.trim();
+  const password = document.getElementById('passwordLogin').value.trim();
+
+  try {
+    const res = await fetch('/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ usuario, password }),
+    });
+
+    const data = await res.json();
+
+    if (res.ok) {
+      mostrarMensaje('Login exitoso, redirigiendo...', false);
+      window.location.href = 'index.html';
+    } else {
+      mostrarMensaje(data.mensaje || 'Usuario o contraseña incorrectos.', true);
+    }
+
+  } catch (error) {
+    console.error('Error en la conexión:', error);
+    mostrarMensaje('Error en la conexión al servidor.', true);
+  }
+});
+
+
+
+  </script>
+</body>
+</html>

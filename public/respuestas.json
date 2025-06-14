@@ -1,0 +1,4027 @@
+[
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_1",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_1",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_1",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_1",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_1",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_2",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_2",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_2",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_2",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_2",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_3",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_3",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_3",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_3",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_3",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_4",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_4",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_4",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_4",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_4",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_5",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_5",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_5",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_5",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_5",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_6",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_6",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_6",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_6",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_6",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_7",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_7",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_7",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_7",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_7",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_8",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_8",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_8",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_8",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_8",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_9",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_9",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_9",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_9",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_9",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_10",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_10",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_10",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_10",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_10",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_11",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_11",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_11",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_11",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_11",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_12",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_12",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_12",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_12",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_12",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_13",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_13",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_13",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_13",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_13",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_14",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_14",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_14",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_14",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_14",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_15",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_15",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_15",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_15",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_15",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_16",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_16",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_16",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_16",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_16",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_17",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_17",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_17",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_17",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_17",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_18",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_18",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_18",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_18",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_18",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_19",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_19",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_19",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_19",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_19",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_20",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_20",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_20",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_20",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_20",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_21",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_21",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_21",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_21",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_21",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_22",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_22",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_22",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_22",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_22",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_23",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_23",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_23",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_23",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_23",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_24",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_24",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_24",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_24",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_24",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_25",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_25",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_25",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_25",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_25",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_26",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_26",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_26",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_26",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_26",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_27",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_27",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_27",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_27",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_27",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_28",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_28",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_28",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_28",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_28",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_29",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_29",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_29",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_29",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_29",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_30",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_30",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_30",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_30",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_30",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_31",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_31",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_31",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_31",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_31",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_32",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_32",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_32",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_32",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_32",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_33",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_33",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_33",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_33",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_33",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_34",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_34",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_34",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_34",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_34",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_35",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_35",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_35",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_35",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_35",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_36",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_36",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_36",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_36",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_36",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_37",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_37",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_37",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_37",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_37",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_38",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_38",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_38",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_38",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_38",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_39",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_39",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_39",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_39",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_39",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_40",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_40",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_40",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_40",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_40",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_41",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_41",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_41",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_41",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_41",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_42",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_42",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_42",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_42",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_42",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_43",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_43",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_43",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_43",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_43",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_44",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_44",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_44",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_44",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_44",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_45",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_45",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_45",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_45",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_45",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_46",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_46",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_46",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_46",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_46",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_47",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_47",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_47",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_47",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_47",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_48",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_48",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_48",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_48",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_48",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_49",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_49",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_49",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_49",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_49",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_50",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_50",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_50",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_50",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_50",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_51",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_51",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_51",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_51",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_51",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_52",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_52",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_52",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_52",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_52",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_53",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_53",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_53",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_53",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_53",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_54",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_54",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_54",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_54",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_54",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_55",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_55",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_55",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_55",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_55",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_56",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_56",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_56",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_56",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_56",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_57",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_57",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_57",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_57",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_57",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_58",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_58",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_58",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_58",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_58",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_59",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_59",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_59",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_59",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_59",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_60",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_60",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_60",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_60",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_60",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_61",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_61",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_61",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_61",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_61",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_62",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_62",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_62",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_62",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_62",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_63",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_63",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_63",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_63",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_63",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_64",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_64",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_64",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_64",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_64",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_65",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_65",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_65",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_65",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_65",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_66",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_66",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_66",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_66",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_66",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_67",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_67",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_67",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_67",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_67",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_68",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_68",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_68",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_68",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_68",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra_extra_ventas_69",
+    "respuesta": "Nuestros precios varían según el producto. ¿Hay alguno específico que te interese?"
+  },
+  {
+    "regex": "descuento|promoción|oferta|palabra_extra_ventas_69",
+    "respuesta": "¡Sí! Tenemos promociones activas. ¿Te gustaría conocerlas?"
+  },
+  {
+    "regex": "comprar|adquirir|ordenar|palabra_extra_ventas_69",
+    "respuesta": "Puedes realizar la compra directamente desde nuestro catálogo."
+  },
+  {
+    "regex": "envío|delivery|palabra_extra_ventas_69",
+    "respuesta": "Realizamos envíos a todo el país. ¿Cuál es tu ubicación?"
+  },
+  {
+    "regex": "forma de pago|método de pago|tarjeta|pago|palabra_extra_ventas_69",
+    "respuesta": "Aceptamos tarjetas, transferencias y pagos móviles."
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_1",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_1",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_1",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_1",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_1",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_2",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_2",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_2",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_2",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_2",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_3",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_3",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_3",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_3",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_3",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_4",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_4",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_4",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_4",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_4",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_5",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_5",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_5",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_5",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_5",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_6",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_6",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_6",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_6",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_6",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_7",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_7",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_7",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_7",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_7",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_8",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_8",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_8",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_8",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_8",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_9",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_9",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_9",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_9",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_9",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_10",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_10",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_10",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_10",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_10",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_11",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_11",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_11",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_11",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_11",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_12",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_12",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_12",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_12",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_12",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_13",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_13",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_13",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_13",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_13",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_14",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_14",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_14",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_14",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_14",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_15",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_15",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_15",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_15",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_15",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_16",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_16",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_16",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_16",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_16",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_17",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_17",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_17",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_17",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_17",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_18",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_18",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_18",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_18",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_18",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_19",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_19",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_19",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_19",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_19",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_20",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_20",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_20",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_20",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_20",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_21",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_21",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_21",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_21",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_21",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_22",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_22",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_22",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_22",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_22",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_23",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_23",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_23",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_23",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_23",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_24",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_24",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_24",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_24",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_24",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_25",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_25",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_25",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_25",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_25",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_26",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_26",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_26",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_26",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_26",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_27",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_27",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_27",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_27",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_27",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_28",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_28",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_28",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_28",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_28",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_29",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_29",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_29",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_29",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_29",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_30",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_30",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_30",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_30",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_30",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_31",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_31",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_31",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_31",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_31",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_32",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_32",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_32",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_32",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_32",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_33",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_33",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_33",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_33",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_33",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_34",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_34",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_34",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_34",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_34",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_35",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_35",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_35",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_35",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_35",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_36",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_36",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_36",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_36",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_36",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_37",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_37",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_37",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_37",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_37",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_38",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_38",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_38",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_38",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_38",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_39",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_39",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_39",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_39",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_39",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_40",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_40",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_40",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_40",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_40",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_41",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_41",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_41",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_41",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_41",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_42",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_42",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_42",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_42",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_42",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_43",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_43",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_43",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_43",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_43",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_44",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_44",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_44",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_44",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_44",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_45",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_45",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_45",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_45",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_45",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_46",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_46",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_46",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_46",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_46",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_47",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_47",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_47",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_47",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_47",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_48",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_48",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_48",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_48",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_48",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_49",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_49",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_49",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_49",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_49",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_50",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_50",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_50",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_50",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_50",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_51",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_51",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_51",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_51",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_51",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_52",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_52",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_52",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_52",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_52",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_53",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_53",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_53",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_53",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_53",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_54",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_54",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_54",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_54",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_54",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_55",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_55",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_55",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_55",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_55",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_56",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_56",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_56",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_56",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_56",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_57",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_57",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_57",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_57",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_57",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_58",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_58",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_58",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_58",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_58",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_59",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_59",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_59",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_59",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_59",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_60",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_60",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_60",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_60",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_60",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_61",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_61",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_61",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_61",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_61",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_62",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_62",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_62",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_62",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_62",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_63",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_63",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_63",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_63",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_63",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_64",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_64",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_64",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_64",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_64",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_65",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_65",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_65",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_65",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_65",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_66",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_66",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_66",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_66",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_66",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_67",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_67",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_67",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_67",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_67",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_68",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_68",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_68",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_68",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_68",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "ayuda|asistencia|soporte|palabra_extra_apoyo_69",
+    "respuesta": "Claro, dime en qué necesitas ayuda."
+  },
+  {
+    "regex": "error|problema|falla|palabra_extra_apoyo_69",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describir el problema?"
+  },
+  {
+    "regex": "no funciona|no carga|pantalla en blanco|palabra_extra_apoyo_69",
+    "respuesta": "Vamos a solucionarlo. ¿Qué dispositivo estás usando?"
+  },
+  {
+    "regex": "contraseña|clave|login|inicio de sesión|palabra_extra_apoyo_69",
+    "respuesta": "Puedes restablecer tu contraseña desde la sección de acceso."
+  },
+  {
+    "regex": "no puedo acceder|no abre|bloqueado|palabra_extra_apoyo_69",
+    "respuesta": "Verifica tu conexión e intenta nuevamente. ¿Sigue fallando?"
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_1",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_1",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_1",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_1",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_1",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_2",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_2",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_2",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_2",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_2",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_3",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_3",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_3",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_3",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_3",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_4",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_4",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_4",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_4",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_4",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_5",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_5",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_5",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_5",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_5",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_6",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_6",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_6",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_6",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_6",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_7",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_7",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_7",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_7",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_7",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_8",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_8",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_8",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_8",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_8",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_9",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_9",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_9",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_9",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_9",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_10",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_10",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_10",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_10",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_10",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_11",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_11",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_11",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_11",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_11",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_12",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_12",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_12",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_12",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_12",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_13",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_13",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_13",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_13",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_13",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_14",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_14",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_14",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_14",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_14",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_15",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_15",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_15",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_15",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_15",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_16",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_16",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_16",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_16",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_16",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_17",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_17",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_17",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_17",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_17",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_18",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_18",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_18",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_18",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_18",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_19",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_19",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_19",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_19",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_19",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_20",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_20",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_20",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_20",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_20",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_21",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_21",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_21",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_21",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_21",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_22",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_22",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_22",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_22",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_22",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_23",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_23",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_23",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_23",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_23",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_24",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_24",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_24",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_24",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_24",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_25",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_25",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_25",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_25",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_25",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_26",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_26",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_26",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_26",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_26",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_27",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_27",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_27",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_27",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_27",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_28",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_28",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_28",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_28",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_28",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_29",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_29",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_29",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_29",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_29",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_30",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_30",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_30",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_30",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_30",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_31",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_31",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_31",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_31",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_31",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_32",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_32",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_32",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_32",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_32",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_33",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_33",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_33",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_33",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_33",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_34",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_34",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_34",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_34",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_34",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_35",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_35",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_35",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_35",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_35",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_36",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_36",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_36",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_36",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_36",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_37",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_37",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_37",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_37",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_37",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_38",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_38",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_38",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_38",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_38",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_39",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_39",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_39",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_39",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_39",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_40",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_40",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_40",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_40",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_40",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_41",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_41",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_41",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_41",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_41",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_42",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_42",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_42",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_42",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_42",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_43",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_43",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_43",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_43",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_43",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_44",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_44",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_44",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_44",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_44",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_45",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_45",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_45",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_45",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_45",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_46",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_46",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_46",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_46",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_46",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_47",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_47",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_47",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_47",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_47",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_48",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_48",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_48",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_48",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_48",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_49",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_49",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_49",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_49",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_49",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_50",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_50",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_50",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_50",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_50",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_51",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_51",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_51",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_51",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_51",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_52",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_52",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_52",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_52",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_52",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_53",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_53",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_53",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_53",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_53",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_54",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_54",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_54",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_54",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_54",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_55",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_55",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_55",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_55",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_55",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_56",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_56",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_56",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_56",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_56",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_57",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_57",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_57",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_57",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_57",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_58",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_58",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_58",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_58",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_58",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_59",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_59",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_59",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_59",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_59",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_60",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_60",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_60",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_60",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_60",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_61",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_61",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_61",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_61",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_61",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },
+  {
+    "regex": "solución|reparar|arreglar|palabra_extra_soluciones_62",
+    "respuesta": "Te ayudaremos a solucionarlo lo más pronto posible."
+  },
+  {
+    "regex": "sugerencia|recomiendas|mejor opción|palabra_extra_soluciones_62",
+    "respuesta": "Basado en tus intereses, te recomendaré las mejores opciones."
+  },
+  {
+    "regex": "reembolso|devolución|palabra_extra_soluciones_62",
+    "respuesta": "Puedes solicitar un reembolso si estás dentro del plazo de devolución."
+  },
+  {
+    "regex": "actualizar|upgrade|versión nueva|palabra_extra_soluciones_62",
+    "respuesta": "Siempre estamos mejorando. ¿Quieres recibir actualizaciones?"
+  },
+  {
+    "regex": "cancelar|anular pedido|palabra_extra_soluciones_62",
+    "respuesta": "Puedes cancelar el pedido si aún no ha sido enviado."
+  },{
+    "regex": "hola|buenas|saludos|palabra1_0",
+    "respuesta": "¡Hola! ¿En qué puedo ayudarte hoy?"
+  },
+  {
+    "regex": "problema|error|inconveniente|palabra1_1",
+    "respuesta": "Lamentamos el inconveniente. ¿Puedes describirme el problema?"
+  },
+  {
+    "regex": "gracias|ok|listo|palabra1_2",
+    "respuesta": "¡Con gusto! Estamos aquí para ayudarte."
+  },
+  {
+    "regex": "precio|costo|tarifa|palabra1_3",
+    "respuesta": "Los precios varían según el producto. ¿Cuál te interesa?"
+  },
+  {
+    "regex": "catálogo|proyecto|productos|palabra1_4",
+    "respuesta": "Puedes ver el catálogo completo de proyectos en la sección correspondiente."
+  },
+  {
+    "regex": "ayuda|necesito|soporte|consulta|palabra1_6",
+    "respuesta": "Claro, dime exactamente qué necesitas y con gusto te ayudaré."
+  }
+
+  
+]

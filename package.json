@@ -1,0 +1,28 @@
+{
+  "name": "portafolio-personal",
+  "version": "1.0.0",
+  "description": "Portafolio personal con Node.js, SQLite, HTML, CSS y JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "tw:init": "tailwindcss init -p"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "openai": "^5.2.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

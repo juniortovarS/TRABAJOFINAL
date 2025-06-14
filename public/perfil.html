@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi Perfil - Cliente</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <style>
+    body {
+      background: #f0f4ff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    header {
+      width: 100%;
+      max-width: 1000px;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #1a73e8;
+    }
+    .perfil-container {
+      display: flex;
+      max-width: 1000px;
+      width: 100%;
+      gap: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+    .sidebar {
+      width: 280px;
+      background: #1a73e8;
+      color: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .sidebar img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      object-fit: cover;
+      border: 3px solid white;
+      background-color: white;
+    }
+    .sidebar h2 {
+      margin: 0 0 10px 0;
+      font-weight: 700;
+    }
+    .sidebar p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      font-weight: 500;
+    }
+    .logout-btn {
+      background-color: #e63946;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 100%;
+      font-size: 1rem;
+    }
+    .logout-btn:hover {
+      background-color: #c53038;
+    }
+    .contenido {
+      flex: 1;
+      padding: 10px 20px;
+    }
+    .contenido h3 {
+      color: #1a73e8;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #1a73e8;
+      padding-bottom: 8px;
+    }
+    .info-item {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+    }
+    /* Ejemplo tarjetas proyectos */
+    .proyectos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .proyecto-card {
+      background: #f9fafb;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+    .proyecto-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+    .proyecto-card h4 {
+      margin-top: 0;
+      color: #1a73e8;
+    }
+    .proyecto-card p {
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    .boton-carrito {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.carrito-contenedor {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  display: none;
+}
+
+.carrito-contenedor.oculto {
+  display: none;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a tu Perfil, <span id="nombre-usuario">Cargando...</span></h1>
+  </header>
+
+  <div class="perfil-container">
+    <aside class="sidebar">
+      <img src="img/avatar.png" alt="Foto de perfil" id="foto-usuario" />
+      <h2 id="nombre-largo">Usuario</h2>
+      <p id="email-usuario">email@ejemplo.com</p>
+      <button class="logout-btn" onclick="logout()">Cerrar sesión</button>
+    </aside>
+
+    <section class="contenido">
+  <h3>Información Personal</h3>
+  <div class="info-item"><strong>Nombre completo:</strong> <span id="nombre-completo">Cargando...</span></div>
+  <div class="info-item"><strong>Correo electrónico:</strong> <span id="correo">Cargando...</span></div>
+  <div class="info-item"><strong>Rol:</strong> <span id="rol-usuario">Cliente</span></div>
+
+  <h3>Mis Proyectos</h3>
+  <div class="proyectos" id="lista-proyectos">
+    <p>Cargando proyectos...</p>
+  </div>
+
+  <h3>Mi Carrito</h3>
+  <div id="carrito-proyectos">
+    <p>Cargando carrito...</p>
+  </div>
+</section>
+
+
+
+<button id="btnCarrito" class="boton-carrito">
+  🛒 Ver Carrito
+</button>
+
+<div id="contenedorCarrito" class="carrito-contenedor oculto">
+  <h3>Mi Carrito</h3>
+  <ul id="listaCarrito"></ul>
+</div>
+
+
+  </div>
+
+  <script>
+    async function verificarSesion() {
+  try {
+    const res = await fetch('/session', {
+      method: 'GET',
+      credentials: 'include' // envía la cookie de sesión al servidor
+    });
+    const data = await res.json();
+
+    if (!data.logueado) {
+      window.location.href = 'perfil.html';
+      return;
+    }
+
+    const usuario = data.usuario || 'Usuario';
+    const nombreCompleto = data.nombreCompleto || 'Nombre Apellido';
+    const email = data.email || 'correo@ejemplo.com';
+    const foto = data.foto || 'img/avatar.png';
+    const rol = data.rol || 'Cliente';
+
+    document.getElementById('nombre-usuario').textContent = usuario;
+    document.getElementById('nombre-largo').textContent = usuario;
+    document.getElementById('nombre-completo').textContent = nombreCompleto;
+    document.getElementById('correo').textContent = email;
+    document.getElementById('email-usuario').textContent = email;
+    document.getElementById('rol-usuario').textContent = rol;
+    document.getElementById('foto-usuario').src = foto;
+
+    cargarProyectos(data.proyectos);
+    await cargarCarrito();
+
+  } catch (error) {
+    console.error('Error al verificar sesión:', error);
+    window.location.href = 'perfil.html';
+  }
+}
+
+function cargarProyectos(proyectos) {
+  const contenedor = document.getElementById('lista-proyectos');
+  contenedor.innerHTML = '';
+
+  if (!proyectos || proyectos.length === 0) {
+    contenedor.innerHTML = '<p>No tienes proyectos registrados.</p>';
+    return;
+  }
+
+  proyectos.forEach(proyecto => {
+    const card = document.createElement('div');
+    card.classList.add('proyecto-card');
+
+    card.innerHTML = `
+      <h4>${proyecto.titulo}</h4>
+      <p>${proyecto.descripcion}</p>
+    `;
+
+    contenedor.appendChild(card);
+  });
+}
+
+async function cargarCarrito() {
+  const contenedorCarrito = document.getElementById('carrito-proyectos');
+  contenedorCarrito.innerHTML = 'Cargando carrito...';
+
+  try {
+    const res = await fetch('/api/carrito', {
+      method: 'GET',
+      credentials: 'include'
+    });
+    if (!res.ok) throw new Error('No se pudo cargar el carrito');
+
+    const carrito = await res.json();
+
+    contenedorCarrito.innerHTML = '';
+
+    if (!carrito || carrito.length === 0) {
+      contenedorCarrito.innerHTML = '<p>Tu carrito está vacío.</p>';
+      return;
+    }
+
+    carrito.forEach(proyecto => {
+      const card = document.createElement('div');
+      card.classList.add('proyecto-card');
+
+      card.innerHTML = `
+        <h4>${proyecto.titulo}</h4>
+        <p>${proyecto.descripcion}</p>
+        <p><strong>Cantidad:</strong> ${proyecto.cantidad || 1}</p>
+      `;
+
+      contenedorCarrito.appendChild(card);
+    });
+
+  } catch (error) {
+    console.error('Error al cargar carrito:', error);
+    contenedorCarrito.innerHTML = '<p>Error al cargar el carrito.</p>';
+  }
+}
+
+async function logout() {
+  await fetch('/logout', { method: 'POST', credentials: 'include' });
+  window.location.href = 'index.html';
+}
+
+verificarSesion();
+
+  </script>
+  <script>
+  document.getElementById('btnCarrito').addEventListener('click', () => {
+    window.location.href = 'carrito.html';
+  });
+</script>
+
+</body>
+</html>

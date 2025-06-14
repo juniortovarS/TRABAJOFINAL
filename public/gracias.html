@@ -1,0 +1,44 @@
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gracias por tu compra</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#4F46E5'
+          },
+          animation: {
+            fadeIn: "fadeIn 1.2s ease-in-out forwards"
+          },
+          keyframes: {
+            fadeIn: {
+              from: { opacity: 0, transform: "translateY(20px)" },
+              to: { opacity: 1, transform: "translateY(0)" }
+            }
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-indigo-100 to-white flex items-center justify-center font-sans">
+  <div class="bg-white/90 border border-indigo-200 shadow-xl rounded-3xl p-10 max-w-xl text-center animate-fadeIn backdrop-blur-md">
+    <h1 class="text-4xl font-extrabold text-indigo-800 mb-6">¡Gracias por tu compra! 🎉</h1>
+    <p class="text-lg text-gray-700 mb-8">Tu pedido ha sido procesado con éxito. Pronto recibirás un correo de confirmación.</p>
+    
+    <div class="flex justify-center gap-4">
+      <a href="catalogo.html" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition">
+        Seguir comprando
+      </a>
+      <a href="index.html" class="bg-white border border-indigo-300 text-indigo-700 hover:bg-indigo-100 font-semibold py-3 px-6 rounded-xl shadow-lg transition">
+        Ir al inicio
+      </a>
+    </div>
+  </div>
+</body>
+</html>
